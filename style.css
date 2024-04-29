@@ -4,4 +4,55 @@ body {
 
 .card {
   background: #fff;
+  height: 300px;
+  max-width: 400px;
+  /* margin-left: 20rem;
+  margin-top: 8rem; */
+  text-align: center;
+  margin: 3rem auto;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+.card-1 {
+  border-color: pink;
+}
+
+.card-2 {
+  border-color: blue;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+.card-1 .icon {
+  background-color: rgba(255, 192, 203, 0.957);
+}
+.card-2 .icon {
+  background-color: rgba(0, 0, 255, 0.892);
+}
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.text {
+  line-height: 2;
+  color: grey;
+}
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btn.btn-pink {
+  background-color: rgba(255, 192, 203, 0.792);
+  color: rgba(167, 24, 48, 0.822);
+}
+
+.btn.btn-blue {
+  background-color: rgba(160, 143, 204, 0.7);
+  color: rgba(68, 18, 219, 0.8);
 }
